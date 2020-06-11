@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E4FD1D7248F14F00018093D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FD1D6248F14F00018093D /* AppDelegate.swift */; };
+		9E4FD1D9248F14F00018093D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FD1D8248F14F00018093D /* SceneDelegate.swift */; };
+		9E4FD1DB248F14F00018093D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FD1DA248F14F00018093D /* ViewController.swift */; };
+		9E4FD1E0248F14F30018093D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4FD1DF248F14F30018093D /* Assets.xcassets */; };
+		9E4FD1E3248F14F30018093D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4FD1E1248F14F30018093D /* LaunchScreen.storyboard */; };
+		9E4FD1EB248F27C40018093D /* Clap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FD1EA248F27C40018093D /* Clap.swift */; };
+		9E4FD1EE248F28720018093D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4FD1ED248F28720018093D /* AudioToolbox.framework */; };
+		9E4FD1F0248F28D10018093D /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4FD1EF248F28D10018093D /* clap.wav */; };
+		9E4FD1F2248F58FB0018093D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4FD1F1248F58FB0018093D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E4FD1D3248F14F00018093D /* ClapBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClapBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4FD1D6248F14F00018093D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E4FD1D8248F14F00018093D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E4FD1DA248F14F00018093D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E4FD1DF248F14F30018093D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4FD1E2248F14F30018093D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E4FD1E4248F14F30018093D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4FD1EA248F27C40018093D /* Clap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clap.swift; sourceTree = "<group>"; };
+		9E4FD1ED248F28720018093D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9E4FD1EF248F28D10018093D /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		9E4FD1F1248F58FB0018093D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E4FD1D0248F14F00018093D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4FD1EE248F28720018093D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E4FD1CA248F14F00018093D = {
+			isa = PBXGroup;
+			children = (
+				9E4FD1D5248F14F00018093D /* ClapBeat */,
+				9E4FD1D4248F14F00018093D /* Products */,
+				9E4FD1EC248F28710018093D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E4FD1D4248F14F00018093D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FD1D3248F14F00018093D /* ClapBeat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4FD1D5248F14F00018093D /* ClapBeat */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FD1D6248F14F00018093D /* AppDelegate.swift */,
+				9E4FD1D8248F14F00018093D /* SceneDelegate.swift */,
+				9E4FD1DA248F14F00018093D /* ViewController.swift */,
+				9E4FD1F1248F58FB0018093D /* Main.storyboard */,
+				9E4FD1EA248F27C40018093D /* Clap.swift */,
+				9E4FD1DF248F14F30018093D /* Assets.xcassets */,
+				9E4FD1E1248F14F30018093D /* LaunchScreen.storyboard */,
+				9E4FD1E4248F14F30018093D /* Info.plist */,
+				9E4FD1EF248F28D10018093D /* clap.wav */,
+			);
+			path = ClapBeat;
+			sourceTree = "<group>";
+		};
+		9E4FD1EC248F28710018093D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FD1ED248F28720018093D /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E4FD1D2248F14F00018093D /* ClapBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4FD1E7248F14F30018093D /* Build configuration list for PBXNativeTarget "ClapBeat" */;
+			buildPhases = (
+				9E4FD1CF248F14F00018093D /* Sources */,
+				9E4FD1D0248F14F00018093D /* Frameworks */,
+				9E4FD1D1248F14F00018093D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClapBeat;
+			productName = ClapBeat;
+			productReference = 9E4FD1D3248F14F00018093D /* ClapBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E4FD1CB248F14F00018093D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = CSM.ajl;
+				TargetAttributes = {
+					9E4FD1D2248F14F00018093D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9E4FD1CE248F14F00018093D /* Build configuration list for PBXProject "ClapBeat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E4FD1CA248F14F00018093D;
+			productRefGroup = 9E4FD1D4248F14F00018093D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E4FD1D2248F14F00018093D /* ClapBeat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E4FD1D1248F14F00018093D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4FD1F0248F28D10018093D /* clap.wav in Resources */,
+				9E4FD1E3248F14F30018093D /* LaunchScreen.storyboard in Resources */,
+				9E4FD1E0248F14F30018093D /* Assets.xcassets in Resources */,
+				9E4FD1F2248F58FB0018093D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E4FD1CF248F14F00018093D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4FD1DB248F14F00018093D /* ViewController.swift in Sources */,
+				9E4FD1EB248F27C40018093D /* Clap.swift in Sources */,
+				9E4FD1D7248F14F00018093D /* AppDelegate.swift in Sources */,
+				9E4FD1D9248F14F00018093D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E4FD1E1248F14F30018093D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E4FD1E2248F14F30018093D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E4FD1E5248F14F30018093D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E4FD1E6248F14F30018093D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4FD1E8248F14F30018093D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClapBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.al-j.ClapBeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E4FD1E9248F14F30018093D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClapBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.al-j.ClapBeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E4FD1CE248F14F00018093D /* Build configuration list for PBXProject "ClapBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4FD1E5248F14F30018093D /* Debug */,
+				9E4FD1E6248F14F30018093D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4FD1E7248F14F30018093D /* Build configuration list for PBXNativeTarget "ClapBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4FD1E8248F14F30018093D /* Debug */,
+				9E4FD1E9248F14F30018093D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E4FD1CB248F14F00018093D /* Project object */;
+}

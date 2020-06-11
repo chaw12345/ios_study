@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClapBeat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手拍子の回数を選んでボタンをクリック" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibt-6T-CWZ">
+                                <rect key="frame" x="116.66666666666669" y="264" width="181" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="Xp1-9S-Q9S"/>
+                                    <constraint firstAttribute="height" constant="68" id="uDj-h9-qgf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_sound" translatesAutoresizingMaskIntoConstraints="NO" id="yLb-iy-iXz">
+                                <rect key="frame" x="128" y="30" width="192" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yLb-iy-iXz" secondAttribute="height" multiplier="113:120" id="PWK-HF-nRj"/>
+                                </constraints>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CC-yr-6xH">
+                                <rect key="frame" x="-16" y="520" width="414" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSY-at-xp2">
+                                <rect key="frame" x="15" y="324" width="384" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kSY-at-xp2" secondAttribute="height" multiplier="35:8" id="vI4-WT-9ZQ"/>
+                                </constraints>
+                                <state key="normal" image="btn_play"/>
+                                <connections>
+                                    <action selector="Player:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GEf-Ic-7UP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kSY-at-xp2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0PI-S4-y2U"/>
+                            <constraint firstItem="ibt-6T-CWZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EnO-TW-3bR"/>
+                            <constraint firstItem="ibt-6T-CWZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-70" id="Oud-We-K9O"/>
+                            <constraint firstItem="0CC-yr-6xH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="S59-TT-rYe"/>
+                            <constraint firstItem="0CC-yr-6xH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-16" id="UW1-L6-JfQ"/>
+                            <constraint firstItem="yLb-iy-iXz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="XdF-OE-1ZV"/>
+                            <constraint firstItem="kSY-at-xp2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YCb-eL-Hko"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0CC-yr-6xH" secondAttribute="bottom" id="jxJ-IE-sag"/>
+                            <constraint firstItem="ibt-6T-CWZ" firstAttribute="top" secondItem="yLb-iy-iXz" secondAttribute="bottom" constant="30" id="oGH-ct-g2p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yLb-iy-iXz" secondAttribute="trailing" constant="94" id="pnr-Eq-RTi"/>
+                            <constraint firstItem="kSY-at-xp2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="rCp-Df-HxY"/>
+                            <constraint firstItem="yLb-iy-iXz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wmy-hc-dM8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSY-at-xp2" secondAttribute="trailing" constant="15" id="z2j-VW-I79"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="PickerView" destination="0CC-yr-6xH" id="jEX-Jd-Y9b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_play" width="350" height="80"/>
+        <image name="img_sound" width="99" height="101"/>
+    </resources>
+</document>

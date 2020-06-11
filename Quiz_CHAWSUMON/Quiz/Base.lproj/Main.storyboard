@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一般常識クイズ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf5-ul-e0N">
+                                <rect key="frame" x="15" y="114" width="384" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="与えられた問題が「○」か「×」かを選んでください。すべての問題に答え終わると、あなたの「一般常識レベル」が表示されます。" translatesAutoresizingMaskIntoConstraints="NO" id="cHt-cv-hcr">
+                                <rect key="frame" x="15" y="417" width="384" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqr-cr-iGd">
+                                <rect key="frame" x="15" y="674" width="384" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Jqr-cr-iGd" secondAttribute="height" multiplier="35:8" id="QUQ-fm-Ehe"/>
+                                </constraints>
+                                <state key="normal" image="btn_start"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kf5-ul-e0N" secondAttribute="trailing" constant="15" id="1Fb-m9-0qf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jqr-cr-iGd" secondAttribute="bottom" constant="100" id="DVm-Dk-zT5"/>
+                            <constraint firstItem="Jqr-cr-iGd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="EoW-Hb-vWj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cHt-cv-hcr" secondAttribute="trailing" constant="15" id="L14-AN-5se"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jqr-cr-iGd" secondAttribute="trailing" constant="15" id="OdT-gg-ZAW"/>
+                            <constraint firstItem="kf5-ul-e0N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="Y4v-uZ-lBB"/>
+                            <constraint firstItem="cHt-cv-hcr" firstAttribute="top" secondItem="kf5-ul-e0N" secondAttribute="bottom" constant="50" id="dzj-jR-euP"/>
+                            <constraint firstItem="kf5-ul-e0N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="tif-K5-xTv"/>
+                            <constraint firstItem="cHt-cv-hcr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="wda-6U-Qea"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jPB-my-pDQ">
+            <objects>
+                <viewController id="9Ja-xz-pk8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EAZ-Nd-nA0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="問題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkH-hE-AXO">
+                                <rect key="frame" x="132" y="59" width="150" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EgW-dq-2xz"/>
+                                    <constraint firstAttribute="width" constant="150" id="LF4-M2-rKF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="問題文" translatesAutoresizingMaskIntoConstraints="NO" id="MoE-vV-vrI">
+                                <rect key="frame" x="90" y="445" width="315" height="63"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7ai-k5-Ltt">
+                                <rect key="frame" x="29" y="616" width="341" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="" image="btn_yes"/>
+                                    <segment title="" image="btn_no"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="MoE-vV-vrI" firstAttribute="top" secondItem="hkH-hE-AXO" secondAttribute="bottom" constant="25" id="5tG-Ri-cF4"/>
+                            <constraint firstItem="MoE-vV-vrI" firstAttribute="leading" secondItem="U0h-Ha-qsa" secondAttribute="leading" constant="9" id="96V-R9-snx"/>
+                            <constraint firstItem="MoE-vV-vrI" firstAttribute="leading" secondItem="U0h-Ha-qsa" secondAttribute="leading" constant="90" id="EKB-xS-JzM"/>
+                            <constraint firstItem="MoE-vV-vrI" firstAttribute="top" secondItem="hkH-hE-AXO" secondAttribute="bottom" constant="25" id="HHQ-lf-prS"/>
+                            <constraint firstItem="hkH-hE-AXO" firstAttribute="top" secondItem="U0h-Ha-qsa" secondAttribute="top" constant="15" id="IOe-Rg-Lxu"/>
+                            <constraint firstItem="U0h-Ha-qsa" firstAttribute="trailing" secondItem="MoE-vV-vrI" secondAttribute="trailing" constant="90" id="WHJ-tL-vXI"/>
+                            <constraint firstItem="hkH-hE-AXO" firstAttribute="centerX" secondItem="EAZ-Nd-nA0" secondAttribute="centerX" id="bCu-GW-bd4"/>
+                            <constraint firstItem="U0h-Ha-qsa" firstAttribute="trailing" secondItem="MoE-vV-vrI" secondAttribute="trailing" constant="9" id="uKT-v2-xuj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U0h-Ha-qsa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khj-os-8AA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969.56521739130437" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_no" width="160" height="160"/>
+        <image name="btn_start" width="350" height="80"/>
+        <image name="btn_yes" width="160" height="160"/>
+    </resources>
+</document>
